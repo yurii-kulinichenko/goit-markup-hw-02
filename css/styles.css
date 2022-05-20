@@ -8,7 +8,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;   
     font-style: normal;
-}
+    }
 .header-nav {
 background: #FFFFFF;
 }
@@ -28,6 +28,9 @@ color: var(--accent)
 }
 .header-logo-span {
     color: #000;
+}
+.site-nav .link.current {
+    color: var(--accent);
 }
 .nav-link-studio {
 font-weight: 500;
@@ -105,9 +108,13 @@ line-height: 1.88;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
+cursor: pointer;
 
 color: #FFFFFF;
 }
+.hero-btn:hover, .hero-btn:focus {
+    background-color: 188CE8;
+    }
 .advantage-title {
    font-weight: 700;
 font-size: 14px;
@@ -206,6 +213,7 @@ line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--main-color);
+cursor: pointer;
 }
 .portfolio-nav-btn:hover, 
 .portfolio-nav-btn:focus {
